@@ -63,6 +63,7 @@ a { color: inherit; }
   padding: 16px 26px; border-radius: 999px; font-weight: 800; text-decoration: none;
   background: var(--lemon); color: var(--ink);
 }
+a.btn:hover, a.btn:focus-visible { filter: brightness(1.06); }
 .btn.ghost { background: transparent; color: var(--paper); border: 2px solid rgba(255, 247, 236, 0.3); }
 .soon { font-size: 14px; color: var(--paper-soft); }
 
